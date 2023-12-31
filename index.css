@@ -1,0 +1,57 @@
+body {
+  background-image: url("tort.jpg");
+  background-size: cover;
+  font-family: Roboto, Oxygen, Ubuntu, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  background: rgba(14, 13, 13, 0.5); /* White background with 0.2 opacity */
+  max-width: 80%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  background-color: rgba(0, 0, 0); /* Black background with 0.2 opacity */
+  color: rgb(197, 143, 7);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: rgb(251, 251, 252, 1); /* Fully opaque white text */
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 3px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgba(255, 255, 255, 1); /* Fully opaque white text */
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: rgb(231, 155, 12, 1); /* Fully opaque blue background */
+}
+
+#decrement-btn {
+  background: rgb(75, 63, 4, 1); /* Fully opaque dark red background */
+}
+
+#save-btn {
+  background: rgb(39, 46, 39, 1); /* Fully opaque dark green background */
+}
+
+p {
+  color: rgb(251, 251, 252, 1); /* Fully opaque white text */
+}
